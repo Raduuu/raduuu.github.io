@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
@@ -14,27 +13,50 @@
   <!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Developer Portfolio | Full Stack Developer</title>
-  <meta name="description"
-    content="Full Stack Developer specializing in modern web technologies. View my portfolio, skills, and projects." />
-  <meta name="author" content="Developer Portfolio" />
+  <title>Radu Palade — Senior Frontend / Fullstack Developer</title>
+  <meta name="description" content="Radu Palade — Senior Frontend / Fullstack Developer with 12+ years of experience. Vue.js, Nuxt, TypeScript, React and Node.js. Technical Lead (Frontend) at HCLTech. Based in Cluj-Napoca, Romania." />
+  <meta name="author" content="Radu Palade" />
+  <link rel="canonical" href="https://radupalade.ro/" />
+  <meta name="theme-color" content="#0b0f17" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
 
-  <meta property="og:title" content="Developer Portfolio | Full Stack Developer" />
-  <meta property="og:description"
-    content="Full Stack Developer specializing in modern web technologies. View my portfolio, skills, and projects." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
+  <meta property="og:url" content="https://radupalade.ro/" />
+  <meta property="og:site_name" content="Radu Palade" />
+  <meta property="og:title" content="Radu Palade — Senior Frontend / Fullstack Developer" />
+  <meta property="og:description" content="12+ years building scalable web applications with Vue.js, Nuxt, TypeScript, React and Node.js. Technical Lead (Frontend) at HCLTech." />
+  <meta property="og:image" content="https://radupalade.ro/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Radu Palade — Senior Frontend / Fullstack Developer" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@developer" />
-  <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <meta name="twitter:title" content="Radu Palade — Senior Frontend / Fullstack Developer" />
+  <meta name="twitter:description" content="12+ years building scalable web applications with Vue.js, Nuxt, TypeScript, React and Node.js." />
+  <meta name="twitter:image" content="https://radupalade.ro/og-image.png" />
 
+  <link rel="icon" href="/favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-  <script type="module" crossorigin src="/assets/index-_szCeniP.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-BgT6oaL9.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    (function () { try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {} })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Radu Palade",
+    "jobTitle": "Senior Frontend / Fullstack Developer",
+    "url": "https://radupalade.ro/",
+    "email": "mailto:p.radupaul@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Cluj-Napoca", "addressCountry": "RO" },
+    "worksFor": { "@type": "Organization", "name": "HCLTech" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universitatea Tehnică „Gheorghe Asachi” din Iași" },
+    "sameAs": ["https://www.linkedin.com/in/palade-radu/", "https://github.com/Raduuu"],
+    "knowsAbout": ["Vue.js", "Nuxt", "TypeScript", "React", "Node.js", "Frontend architecture", "Web performance"]
+  }
+  </script>
 </head>
 
 <body>
@@ -42,7 +64,243 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXRB9H3V" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div id="root"></div>
-</body>
 
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="#top" aria-label="Radu Palade, back to top"><span class="brand-mark" aria-hidden="true">RP</span><span class="brand-name">Radu Palade</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero container" id="top" aria-labelledby="hero-title">
+      <h1 id="hero-title">Radu Palade</h1>
+      <p class="hero-role">Senior Frontend / Fullstack Developer</p>
+      <p class="hero-summary">12+ years building scalable, well-tested web applications with Vue.js, Nuxt, TypeScript, React and Node.js — currently Technical Lead (Frontend) at HCLTech.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/Resume.pdf" download="Radu_Palade_CV.pdf">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Download CV</a>
+        <a class="btn btn-secondary" href="mailto:p.radupaul@gmail.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a>
+        <a class="btn btn-secondary" href="https://www.linkedin.com/in/palade-radu/" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
+      </div>
+      <ul class="hero-facts" aria-label="Quick facts">
+        <li><strong>12+</strong><span>years in web development</span></li>
+        <li><strong>1M+</strong><span>active users served</span></li>
+        <li><strong>80–90%</strong><span>faster builds after Webpack → Vite</span></li>
+        <li><strong>Cluj-Napoca</strong><span>Romania</span></li>
+      </ul>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container narrow">
+        <h2 class="section-title" id="about-title"><span class="section-num" aria-hidden="true">01</span>About</h2>
+        <div class="prose">
+          <p>I'm a senior frontend developer with 12+ years of experience building scalable web applications across diverse industries. My deepest expertise is in <strong>Vue.js</strong> (Vue 2/3, Composition API) and <strong>Nuxt</strong>, with production experience in <strong>TypeScript</strong>, <strong>React</strong> and Redux, plus backend experience in <strong>Node.js</strong>.</p>
+          <p>Today I'm Technical Lead (Frontend) at HCLTech, building a fintech web application for a Benelux banking client. Before that I led frontend development for high-traffic social media applications serving 1,000,000+ active users.</p>
+          <p>I care about clean, tested code (Jest, Vitest, Cypress), web performance and accessibility, and I enjoy delivering high-quality UI in agile, cross-functional teams. I use AI coding tools daily as part of my workflow.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section alt" id="experience" aria-labelledby="exp-title">
+      <div class="container narrow">
+        <h2 class="section-title" id="exp-title"><span class="section-num" aria-hidden="true">02</span>Experience</h2>
+        <ol class="timeline">
+          <li class="job">
+            <div class="job-head">
+              <h3>Technical Lead (Frontend) <span class="at">· HCLTech</span></h3>
+              <p class="job-meta"><time datetime="2025-10">Oct 2025</time> – Present · Remote</p>
+            </div>
+            <p class="job-context">Fintech web application for a Benelux banking client</p>
+            <ul class="bullets">
+              <li>Own frontend architecture and delivery of a fintech web application in a regulated environment with banking-grade security and performance requirements.</li>
+              <li>Design and build scalable, component-based frontend solutions that meet strict compliance, accessibility and performance standards.</li>
+              <li>Define and apply the frontend testing strategy across smoke, unit (Jest, Vitest) and end-to-end (Cypress) tests, plus mobile E2E with Detox.</li>
+              <li>Mentor junior and mid-level developers through code reviews and shared frontend best practices and coding standards.</li>
+              <li>Enforce code quality and security with SonarQube quality gates in CI/CD, with artifacts (npm packages, Docker images) delivered via Nexus.</li>
+              <li>Work with cross-functional international teams across Benelux and Romania to ship financial software on schedule.</li>
+            </ul>
+            <ul class="tags" aria-label="Stack"><li>Vue.js</li><li>Jest</li><li>Vitest</li><li>Cypress</li><li>Detox</li><li>SonarQube</li><li>Nexus</li><li>Docker</li><li>GitLab CI/CD</li></ul>
+          </li>
+
+          <li class="job">
+            <div class="job-head">
+              <h3>Senior Frontend Developer <span class="at">· Freelance</span></h3>
+              <p class="job-meta"><time datetime="2020-11">Nov 2020</time> – <time datetime="2025-10">Oct 2025</time> · Cluj-Napoca</p>
+            </div>
+            <p class="job-context">Social media industry</p>
+            <ul class="bullets">
+              <li>Led frontend development for high-traffic applications serving 1,000,000+ active users, improving reliability and maintainability.</li>
+              <li>Partnered with product, design and backend to ship features aimed at improving user engagement and retention.</li>
+              <li>Migrated the build from Webpack to Vite, cutting build times by 80–90%, and introduced TailwindCSS and the Vue 3 Composition API.</li>
+              <li>Led the migration of the codebase from Vue 2 to Vue 3.</li>
+              <li>Optimized performance through lazy loading, code-splitting and bundle-size reduction.</li>
+              <li>Built and maintained features in TypeScript and implemented real-time features using WebSockets.</li>
+            </ul>
+            <ul class="tags" aria-label="Stack"><li>Vue 2</li><li>Vue 3</li><li>Vuex</li><li>Nuxt</li><li>Angular</li><li>TypeScript</li><li>TailwindCSS</li><li>WebSockets</li><li>Vite</li><li>Webpack</li><li>Docker</li></ul>
+          </li>
+
+          <li class="job">
+            <div class="job-head">
+              <h3>Frontend Developer <span class="at">· Pentalog</span></h3>
+              <p class="job-meta"><time datetime="2016-04">Apr 2016</time> – <time datetime="2020-11">Nov 2020</time> · Iași</p>
+            </div>
+            <p class="job-context">Projects: fintech multi-bank card aggregation app · social media platform · project management &amp; issue-tracking tool</p>
+            <ul class="bullets">
+              <li>Developed backend services in Node.js for the fintech multi-bank card aggregation platform.</li>
+              <li>Developed and maintained React components in a Kanban/Scrum workflow, contributing to higher sprint velocity and fewer bugs.</li>
+              <li>Wrote unit tests (Jest, Enzyme) and end-to-end tests (Cypress), ensuring feature reliability.</li>
+              <li>Participated in product grooming, sprint planning and retrospectives to align technical and business goals.</li>
+              <li>Delivered pixel-perfect marketing websites and responsive email templates under tight deadlines.</li>
+              <li>Worked closely with design and QA to ensure cross-browser compatibility and responsive behavior.</li>
+            </ul>
+            <ul class="tags" aria-label="Stack"><li>React</li><li>Redux</li><li>Node.js</li><li>Jest</li><li>Enzyme</li><li>styled-components</li><li>Cypress</li><li>LESS</li><li>jQuery</li><li>PHP</li></ul>
+          </li>
+
+          <li class="job">
+            <div class="job-head">
+              <h3>Frontend Developer <span class="at">· IntelligentBee</span></h3>
+              <p class="job-meta"><time datetime="2015-06">Jun 2015</time> – <time datetime="2016-04">Apr 2016</time> · Iași</p>
+            </div>
+            <ul class="bullets">
+              <li>Built the frontend of a student-accommodation booking platform (Airbnb-style) helping Erasmus students find housing abroad.</li>
+            </ul>
+            <ul class="tags" aria-label="Stack"><li>jQuery</li><li>Symfony</li><li>HTML</li><li>CSS</li></ul>
+          </li>
+
+          <li class="job">
+            <div class="job-head">
+              <h3>Frontend Developer <span class="at">· Vuzum</span></h3>
+              <p class="job-meta"><time datetime="2014-04">Apr 2014</time> – <time datetime="2015-06">Jun 2015</time> · Iași</p>
+            </div>
+            <ul class="bullets">
+              <li>Developed custom WordPress themes for a range of clients and built responsive HTML5/CSS3 templates for desktop, tablet and mobile, working closely with development and QA.</li>
+            </ul>
+            <ul class="tags" aria-label="Stack"><li>WordPress</li><li>HTML5</li><li>CSS3</li><li>jQuery</li><li>CoffeeScript</li><li>Git</li></ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" aria-labelledby="proj-title">
+      <div class="container">
+        <h2 class="section-title" id="proj-title"><span class="section-num" aria-hidden="true">03</span>Projects</h2>
+        <p class="section-lead">Products I've designed and built outside my day job.</p>
+        <div class="cards">
+          <article class="card">
+            <div class="card-top">
+              <h3>VreauDedicatie</h3>
+              <ul class="badges" aria-label="Status"><li class="badge badge-live">Live</li><li class="badge">Solo-built</li></ul>
+            </div>
+            <p>A live web app where event guests scan a QR code and request songs and dedications from their phone, while the DJ runs the request queue from the booth — no app install needed.</p>
+            <ul class="bullets small">
+              <li>Designed and built the whole product solo, from the guest request flow to the real-time DJ dashboard for accepting or denying requests.</li>
+              <li>QR-code room join, every request bound to a specific DJ/event, and a list of the latest songs recommended by each user.</li>
+            </ul>
+            <ul class="tags" aria-label="Stack"><li>Vue</li><li>Firebase</li><li>Firestore</li></ul>
+            <a class="card-link" href="https://www.vreaudedicatie.ro" target="_blank" rel="noopener noreferrer">vreaudedicatie.ro<span class="sr-only"> (opens in a new tab)</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3>Spendly</h3>
+              <ul class="badges" aria-label="Status"><li class="badge badge-live">Live</li><li class="badge">AI-assisted</li></ul>
+            </div>
+            <p>A spending tracker web app for tracking expenses, income and net worth. Built with AI coding tools (Claude), with me steering and reviewing the output.</p>
+            <ul class="tags" aria-label="Stack"><li>React</li><li>Firebase</li></ul>
+            <a class="card-link" href="https://spendlyapp.net" target="_blank" rel="noopener noreferrer">spendlyapp.net<span class="sr-only"> (opens in a new tab)</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3>Lift</h3>
+              <ul class="badges" aria-label="Status"><li class="badge badge-pending">In App Store review</li><li class="badge">AI-assisted</li></ul>
+            </div>
+            <p>An iOS workout tracker, built with AI coding tools (Claude). Link coming once it's live on the App Store.</p>
+            <ul class="tags" aria-label="Platform"><li>iOS</li></ul>
+            <span class="card-link muted">Coming soon to the App Store</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title" id="skills-title"><span class="section-num" aria-hidden="true">04</span>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group"><h3>Languages</h3><ul class="tags"><li>JavaScript (ES6+)</li><li>TypeScript</li><li>HTML5</li><li>CSS3</li><li>PHP</li></ul></div>
+          <div class="skill-group"><h3>Frameworks &amp; Libraries</h3><ul class="tags"><li>Vue 2</li><li>Vue 3 (Composition API)</li><li>Nuxt</li><li>Vuex</li><li>React</li><li>Redux</li><li>Angular</li><li>Node.js</li><li>D3.js</li><li>jQuery</li></ul></div>
+          <div class="skill-group"><h3>Styling</h3><ul class="tags"><li>TailwindCSS</li><li>styled-components</li><li>LESS</li><li>Responsive design</li></ul></div>
+          <div class="skill-group"><h3>Testing</h3><ul class="tags"><li>Jest</li><li>Vitest</li><li>Enzyme</li><li>Cypress</li><li>Detox</li><li>Storybook</li></ul></div>
+          <div class="skill-group"><h3>Tooling &amp; Platforms</h3><ul class="tags"><li>Git</li><li>GitLab CI/CD</li><li>SonarQube</li><li>Nexus</li><li>Vite</li><li>Webpack</li><li>Docker</li><li>Firebase / Firestore</li><li>Jira</li></ul></div>
+          <div class="skill-group"><h3>Practices</h3><ul class="tags"><li>OOP</li><li>Agile (Scrum / Kanban)</li><li>Component-driven development</li><li>AI-assisted development (daily)</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & LANGUAGES -->
+    <section class="section" id="education" aria-labelledby="edu-title">
+      <div class="container narrow">
+        <h2 class="section-title" id="edu-title"><span class="section-num" aria-hidden="true">05</span>Education &amp; Languages</h2>
+        <div class="two-col">
+          <div class="info-card">
+            <h3>Bachelor's in Information Technology</h3>
+            <p>Universitatea Tehnică „Gheorghe Asachi”, Iași</p>
+            <p class="job-meta">2011 – 2015</p>
+          </div>
+          <div class="info-card">
+            <h3>Languages</h3>
+            <dl class="langs">
+              <div><dt>Romanian</dt><dd>Native</dd></div>
+              <div><dt>English</dt><dd>Proficient</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CONTACT -->
+  <footer class="footer" id="contact" aria-labelledby="contact-title">
+    <div class="container narrow">
+      <h2 class="contact-title" id="contact-title">Get in touch</h2>
+      <p class="contact-lead">Have a question or want to say hello? The fastest way to reach me is email.</p>
+      <a class="contact-email" href="mailto:p.radupaul@gmail.com">p.radupaul@gmail.com</a>
+      <ul class="contact-links">
+        <li><a href="https://www.linkedin.com/in/palade-radu/" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+        <li><a href="https://github.com/Raduuu" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>GitHub<span class="sr-only"> (opens in a new tab)</span></a></li>
+        <li><a href="/Resume.pdf" download="Radu_Palade_CV.pdf">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Download CV (PDF)</a></li>
+        <li><span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Cluj-Napoca, Romania</span></li>
+      </ul>
+      <p class="copyright">© <span id="year">2026</span> Radu Palade</p>
+    </div>
+  </footer>
+
+  <script src="/script.js" defer></script>
+</body>
 </html>
